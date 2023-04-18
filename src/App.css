@@ -1,0 +1,84 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #272728;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.footer-section {
+    border-top: 1px solid #272728;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.space-text {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    padding-right: 9px;
+
+}
+
+.min-h-space {
+    min-height: 70vh;
+}
+
+.showcase {
+    background: url("assets/img/home-image.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    background: url("assets/img/rocket-sec1.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.showcase .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 8rem 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.articles {
+    border: 2px solid #958f8f;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .res-footer {
+        display: grid !important;
+    }
+}
